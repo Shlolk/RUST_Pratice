@@ -26,4 +26,15 @@ fn main (){
         x+=2;
         assert_eq!(x,102); // using this to compare the value ....
         println!("yes its right");
-    
+//here we gonna talk about scope...
+//scope is the range within the program for which the item is valid 
+        fn main (){
+        let x :i32 = 25; // this varible is declared in the ourterscope  
+            {
+                let y : i32=500;// this delcared in the inner scope
+                println!("the value of x {} and the value of y {}",x,y);
+            }
+            println!("value of the x {} and the value of y {}",x,y);
+        }
+// th3e above programe that i have mentioned is not gonna complier becuse a varible vaild inside scope only where it declared 
+    //which is called scope delecaration...
