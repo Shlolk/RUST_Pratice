@@ -20,3 +20,10 @@ fn main (){
     let mut x :i32 = 90; // here we using mut to making varibale mutaible 
     x+=2; 
     println!("{}",x)
+// lets talk abot assert_eq! function it compare the variables with same data type
+        fn main (){
+        let mut  x:i32 = 100;
+        x+=2;
+        assert_eq!(x,102); // using this to compare the value ....
+        println!("yes its right");
+    
