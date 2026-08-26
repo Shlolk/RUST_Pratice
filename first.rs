@@ -38,3 +38,13 @@ fn main (){
         }
 // th3e above programe that i have mentioned is not gonna complier becuse a varible vaild inside scope only where it declared 
     //which is called scope delecaration...
+// for fixing this just simple delcarded y in to the outerscope 
+      fn main (){
+        let x :i32 = 25; 
+        let y : i32=500;
+          {
+                println!("the value of x {} and the value of y {}",x,y);
+            }
+            println!("value of the x {} and the value of y {}",x,y);
+        }  
+        // now the above can complie easily 
