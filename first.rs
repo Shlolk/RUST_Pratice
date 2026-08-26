@@ -13,3 +13,10 @@ fn main (){
     let _y:i32;// here complier ignore this delecared variable .....
     assert_eq!(x,10);
     println!("succes");
+// here we are gonna learn about mute means mutiable 
+// in rust varibles are immutaible so we mut to that later on we can the change the value of varibale 
+
+fn main (){
+    let mut x :i32 = 90; // here we using mut to making varibale mutaible 
+    x+=2; 
+    println!("{}",x)
