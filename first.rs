@@ -48,12 +48,15 @@ fn main (){
             println!("value of the x {} and the value of y {}",x,y);
         }  
         // now the above can complie easily 
+// here is the code for the conditional statemnts ... as you can  see in the below 
 fn main() {
     let x : i32 = 30;
     let y :i32 = 40 ;
     if x < y {
-        println!("yes you are righ "):
+        println!("y is greater than x "):
     }
     else {
-        println!("wooooooooooh");
+        println!("x is greater than y ");
     }
+
+        
