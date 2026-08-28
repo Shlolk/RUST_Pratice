@@ -48,3 +48,12 @@ fn main (){
             println!("value of the x {} and the value of y {}",x,y);
         }  
         // now the above can complie easily 
+fn main() {
+    let x : i32 = 30;
+    let y :i32 = 40 ;
+    if x < y {
+        println!("yes you are righ "):
+    }
+    else {
+        println!("wooooooooooh");
+    }
