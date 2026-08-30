@@ -4,3 +4,5 @@ fn main(){
 const NAME:&str="shlok kumar";
 println!("{}",NAME);
 }
+//without declaring the annotion delcarartion we got the error so wwe have to mentioned that what type of data is going to store 
+// basically You must write the type when creating a constant. You cannot let Rust guess the type like you can with regular variables:
