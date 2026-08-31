@@ -9,5 +9,9 @@ let div = a/b;
 let rem = a%b;
 println!("{},{},{},{},{}",sum,sub,mul,div,rem);
 
-
+// comprasion operators 
+  let is_proraming_fun:bool = true ;
+  let is_fish_tasty:bool= false;
+  println!("{}",is_programing_fun);
+  println!("{}",is_fish_tasty);
 }
