@@ -19,4 +19,13 @@ println!("{},{},{},{},{}",sum,sub,mul,div,rem);
 let can_vote = age >= 18;
 
 println!("Can vote? {}", can_vote);
+
+//Using Booleans in if Statements
+let is_logged_in = true;
+
+if is_logged_in {
+  println!("Welcome back!");
+} else {
+  println!("Please log in.");
+}
 }
