@@ -14,4 +14,9 @@ println!("{},{},{},{},{}",sum,sub,mul,div,rem);
   let is_fish_tasty:bool= false;
   println!("{}",is_programing_fun);
   println!("{}",is_fish_tasty);
+  //boolan with comparison 
+  let age = 20;
+let can_vote = age >= 18;
+
+println!("Can vote? {}", can_vote);
 }
